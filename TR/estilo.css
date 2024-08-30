@@ -1,0 +1,109 @@
+/* Estilização básica para todo o corpo da página */
+body {
+    font-family: sans-serif;
+    background-color: #f0ff0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Estilização para o cabeçalho da página */
+header {
+    background-color: rgb(59, 170, 205);   /* Cor de fundo azul */
+    color: #005f7f;                         /* Cor do texto em branco */
+    padding: 15px 20px;                      /* Espaçamento interno */
+    text-align: center;                     /* Centralizar o texto */
+}
+
+/* Estilização para a navegação */
+nav ul {
+    list-style-type: none;              /* Remover marcadores das listas */
+    margin: 0;
+    padding: 0;
+    text-align: center;                 /* Centralizar a lista de navegação */
+}
+
+nav ul li {
+    display: inline;                    /* Exibir os itens da lista em linha */
+    margin-right: 10px;                 /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: white;                     /* Cor do texto do link em branco */
+    text-decoration: none;               /* Remover sublinhado dos links */
+    font-weight: bold;                  /* Deixar o texto em negrito */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;         /* Adicionar sublinhado ao passar o mouse */
+}
+
+/* Estilização para os títulos principais */
+h1, h2 {
+    margin: 0;
+    padding: 10px 20px;
+}
+
+/* Estilização para as tabelas */
+table {
+    width: 100%;                       /* Tabela ocupa 100% da largura disponível */
+    border-collapse: collapse;          /* Colapsar as bordas para eliminar espaços entre as células */
+    margin: 20px 0;                    /* Espaçamento superior e inferior */
+}
+
+th, td {
+    padding: 10px;                     /* Espaçamento interno das células */
+    border: 1px solid #ddd;           /* Borda leve ao redor das células */
+    text-align: left;                  /* Alinhamento do texto à esquerda */
+}
+
+/* Estilização para o cabeçalho da tabela */
+th {
+    background-color: #f2f2f2;       /* Cor de fundo cinza claro para o cabeçalho */
+}
+
+/* Alternância de cores para as linhas da tabela */
+tr:nth-child(even) {
+    background-color: #f9f9f9;       /* Cor de fundo cinza claro para as linhas pares */
+}
+
+/* Estilização para as seções */
+section {
+    padding: 20px;                     /* Espaçamento interno das seções */
+}
+
+/* Estilização para a página inicial */
+.menu-inicial {
+    text-align: center;                /* Centralizar os botões */
+    margin-top: 50px;                  /* Espaçamento superior */
+}
+
+.menu-inicial .botao {
+    display: inline-block;             /* Exibir os botões em linha */
+    background-color: #008cba;        /* Cor de fundo azul */
+    color: white;                    /* Cor do texto em branco */
+    padding: 15px 30px;                 /* Espaçamento interno dos botões */
+    margin: 10px;                      /* Espaçamento entre os botões */
+    text-decoration: none;              /* Remover sublinhado dos links */
+    font-size: 18px;                   /* Tamanho da fonte */
+    border-radius: 5px;                 /* Bordas arredondadas */
+    transition: background-color 0.2s; /* Transição suave na mudança de cor */
+}
+
+.menu-inicial .botao:hover {
+    background-color: #005f7f;       /* Cor de fundo ao passar o mouse */
+}
+.logo{
+    width: 80px;                       /* Largura da logo*/
+    height: auto;                     /* Ajuste de altura automatica*/
+    position: absolute;                /* Posição estática do lado esquerdo */
+    top: 5px;                         /* Distância do topo da pagina*/
+    left: 10px;                        /* Distância da esquerda da pagina*/     
+    transition  0.3s ease;    /* Animação de transição suave*/
+
+}
+.logo:active{
+opacity: 0.6s;
+
+}
+
